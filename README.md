@@ -58,8 +58,8 @@ python main.py
 - CatBoost outperformed all other models, achieving the lowest RMSE, suggesting it effectively captures complex interactions between categorical and numerical features.
 - XGBoost and LightGBM also performed better than linear models, but slightly worse than CatBoost.
 - Key factors influencing medical insurance charges:
-- Smoking is the strongest cost driver — smokers pay significantly more.
-- Age correlates positively with cost — older individuals pay more.
-- BMI affects cost especially in class 2 and 3 obesity groups.
+  - Smoking is the strongest cost driver — smokers pay significantly more.
+  - Age correlates positively with cost — older individuals pay more.
+  - BMI affects cost especially in class 2 and 3 obesity groups.
 - Using models that handle categorical features natively (like CatBoost) provides an advantage in this dataset.
 - Future improvements may include stacking ensemble methods, hyperparameter tuning, and feature engineering.
