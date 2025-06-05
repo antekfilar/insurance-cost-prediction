@@ -24,7 +24,7 @@ To predict the `charges` (insurance cost) using multiple regression models and c
 - CatBoost
 
 ## ✅ Best model
-📈 XGBoost showed the lowest RMSE among the tested models.
+📈 CatBoost showed the best scores in metrics among the tested models.
 
 ## 🖼️ Visualizations
 - Distributions of features
